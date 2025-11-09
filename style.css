@@ -228,7 +228,7 @@ footer {
     transform: translateY(0);
 }
 
-/* === 9. New Contact Link Styles === */
+/* === 9. New Contact & Icon Styles === */
 
 .contact-info .contact-email-link {
     color: var(--text-color);
@@ -244,16 +244,16 @@ footer {
     margin-top: 2rem;
 }
 
-.social-link {
+.social-icon {
+    font-size: 2.5rem; /* Makes the icons large */
+    color: var(--text-color-secondary);
     text-decoration: none;
-    color: var(--text-color-secondary); /* A lighter, subtle color */
-    font-size: 1.2rem; /* Make them a bit bigger */
-    font-weight: 700;
-    margin: 0 1.5rem; /* Space them out */
-    transition: color 0.3s ease;
+    margin: 0 1rem;
+    display: inline-block; /* Allows for transforms */
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.social-link:hover {
-    color: var(--primary-color); /* Bright green on hover */
-    text-decoration: underline;
+.social-icon:hover {
+    color: var(--primary-color); /* Changes to green */
+    transform: scale(1.1) translateY(-3px); /* Lifts and grows on hover */
 }
