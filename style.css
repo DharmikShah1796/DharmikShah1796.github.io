@@ -227,3 +227,33 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* === 9. New Contact Link Styles === */
+
+.contact-info .contact-email-link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact-info .contact-email-link:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 2rem;
+}
+
+.social-link {
+    text-decoration: none;
+    color: var(--text-color-secondary); /* A lighter, subtle color */
+    font-size: 1.2rem; /* Make them a bit bigger */
+    font-weight: 700;
+    margin: 0 1.5rem; /* Space them out */
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: var(--primary-color); /* Bright green on hover */
+    text-decoration: underline;
+}
