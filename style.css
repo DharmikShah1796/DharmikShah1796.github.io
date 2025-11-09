@@ -241,19 +241,26 @@ footer {
 }
 
 .social-links {
-    margin-top: 2rem;
+    margin-top: 2.5rem; /* Added a bit more space above */
 }
 
 .social-icon {
-    font-size: 2.5rem; /* Makes the icons large */
-    color: var(--text-color-secondary);
+    /* 1. Made them bigger */
+    font-size: 3rem; 
+    
+    /* 2. Made them more "visible" (brighter) */
+    color: var(--text-color); 
+    
     text-decoration: none;
-    margin: 0 1rem;
-    display: inline-block; /* Allows for transforms */
+    
+    /* 3. Added more spacing between them */
+    margin: 0 1.5rem; 
+    
+    display: inline-block;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-icon:hover {
-    color: var(--primary-color); /* Changes to green */
-    transform: scale(1.1) translateY(-3px); /* Lifts and grows on hover */
+    color: var(--primary-color); 
+    transform: scale(1.1) translateY(-3px); 
 }
